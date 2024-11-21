@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@100;200;300;400;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+       <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" ></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+       </nav>
+       <h1>Our courses</h1>
+     
+    </section>
+
+    <!-----courses----->
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quisquam magnam. Expedita ut commodi doloremque esse eaque odit vero perspiciatis, quidem repudiandae doloribus nihil temporibus placeat. Ullam eum explicabo officia.</p>
+
+
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quisquam magnam. Expedita ut commodi doloremque esse eaque odit vero perspiciatis, quidem repudiandae doloribus nihil temporibus placeat. Ullam eum explicabo officia.</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, quisquam magnam. Expedita ut commodi doloremque esse eaque odit vero perspiciatis, quidem repudiandae doloribus nihil temporibus placeat. Ullam eum explicabo officia.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-----facilities----->
+
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/Library.png" >
+                <h3>Grand Prestigious Library</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, adipisci quidem eaque optio culpa temporibus fugiat molestias aliquam neque tenetur repudiandae illum nihil nulla quo libero voluptates cumque exercitationem illo.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/fields.png" >
+                <h3>Large Playing Field</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, adipisci quidem eaque optio culpa temporibus fugiat molestias aliquam neque tenetur repudiandae illum nihil nulla quo libero voluptates cumque exercitationem illo.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/Cafe.png" >
+                <h3>Tastiest Food</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, adipisci quidem eaque optio culpa temporibus fugiat molestias aliquam neque tenetur repudiandae illum nihil nulla quo libero voluptates cumque exercitationem illo.</p>
+            </div>
+        </div>
+
+    </section>
+    
+<!-----footer----->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo error est maxime ab deleniti facilis voluptates eos ut officia adipisci.<br> Quia consectetur iste placeat tenetur, adipisci officiis sed ratione! Officiis?</p>
+    <p>Made by Davina <i class="fa-regular fa-heart"></i></p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+
+</section>
+
+<!-- Scroll to top button -->
+
+<button onclick="scrollToTop()" id="scrollTopBtn" class="scrollTopBtn">
+    <i class="fa-solid fa-angle-up"></i>
+</button>
+
+
+<script>
+    window.onscroll = function () {
+        const scrollTopBtn = document.getElementById("scrollTopBtn");
+        if (window.scrollY > 20) {
+            scrollTopBtn.style.display = "block";
+        } else {
+            scrollTopBtn.style.display = "none";
+        }
+    };
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' 
+        });
+    }
+</script>
+
+
+</body>
+</html>
+
